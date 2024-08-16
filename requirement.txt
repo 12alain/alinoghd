@@ -1,1 +1,0 @@
-# fichier contenant la liste des dépendances du projet.
