@@ -2,7 +2,7 @@ name: Data prepocessing
 on:
   push:
     branches:
-      - main
+      - master
       - feat1
       - feat2
 jobs:
