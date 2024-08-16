@@ -28,7 +28,8 @@ jobs:
       
       - name: dowload data 
         run: |
-          python -c "from script import download; download('https://raw.githubusercontent.com/12alain/python/master/data/billets.csv')"
+          python -c "from script import download; data=download('https://raw.githubusercontent.com/12alain/python/master/data/billets.csv')"
+          cat data
      
       #- name: data_cleaned 
         #run: |
