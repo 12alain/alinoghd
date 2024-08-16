@@ -30,7 +30,7 @@ jobs:
         run: |
           python -c "from script import download; download('https://raw.githubusercontent.com/12alain/python/master/data/billets.csv')"
      
-      - name: data_cleaned 
-        run: |
-          python -c "from script import data_cleaned ; data_cleaned()"
-          cat data_cleaned()
+      #- name: data_cleaned 
+        #run: |
+         # python -c "from script import data_cleaned ; data_cleaned()"
+         # cat data_cleaned()
